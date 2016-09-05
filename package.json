@@ -1,6 +1,34 @@
 {
   "name": "express-ajs",
   "description": "Minimal example of how to use ajs in Express.",
+  "blah": {
+    "description": [
+      {
+        "p": "This is an example how to use [ajs](https://github.com/IonicaBizau/ajs) together with Express."
+      },
+      {
+        "code": {
+          "language": "sh",
+          "content": [
+            "# Clone the repository",
+            "git clone https://github.com/IonicaBizau/express-ajs",
+            "",
+            "# Install the dependencies",
+            "npm i",
+            "",
+            "# And start it",
+            "npm start"
+          ]
+        }
+      },
+      {
+        "p": [
+          "In the `views/` directory you can find the ajs views. The `posts.ajs` template contains an example how to use aync calls.",
+          "Just open `localhost:3000` in your browser and have fun!"
+        ]
+      }
+    ]
+  },
   "keywords": [
     "express",
     "ajs",
@@ -16,7 +44,7 @@
   "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "files": [
@@ -38,5 +66,14 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/express-ajs/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/express-ajs#readme"
+  "homepage": "https://github.com/IonicaBizau/express-ajs#readme",
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ajs": "~1.2.0",
+    "express": "~4.13.4",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  }
 }

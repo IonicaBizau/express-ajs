@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <hr>
+    <% getPosts(function (err, posts) {
+        if (err) { %>
+            <strong>There was an error: <%= err.message %></strong>
+        <% } else {
+            for (var i = 0; i < posts.length; ++i) {
+        %>
+            <% include('includes/post', posts[i]) %>
+        <% }
+        } %>
+    <% }); %>
+  </body>
+</html>
