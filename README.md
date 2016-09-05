@@ -5,6 +5,25 @@
 
 > Minimal example of how to use ajs in Express.
 
+
+This is an example how to use [ajs](https://github.com/IonicaBizau/ajs) together with Express.
+
+```sh
+# Clone the repository
+git clone https://github.com/IonicaBizau/express-ajs
+
+# Install the dependencies
+npm i
+
+# And start it
+npm start
+```
+
+In the `views/` directory you can find the ajs views. The `posts.ajs` template contains an example how to use aync calls.
+
+Just open `localhost:3000` in your browser and have fun!
+
+
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
