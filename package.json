@@ -41,7 +41,7 @@
     "in"
   ],
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "scripts": {
     "start": "node ./bin/www"
@@ -75,5 +75,8 @@
     "express": "~4.13.4",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0"
+  },
+  "bin": {
+    "express-ajs": "./bin/express-ajs"
   }
 }
