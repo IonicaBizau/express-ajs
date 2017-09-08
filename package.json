@@ -41,7 +41,7 @@
     "in"
   ],
   "license": "MIT",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "lib/index.js",
   "scripts": {
     "start": "node ./bin/www"
@@ -57,7 +57,10 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ],
   "repository": {
     "type": "git",
