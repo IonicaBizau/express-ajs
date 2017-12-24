@@ -21,6 +21,7 @@ npm i
 npm start
 ```
 
+
 In the `views/` directory you can find the ajs views. The `posts.ajs` template contains an example how to use aync calls.
 
 Just open `localhost:3000` in your browser and have fun!
